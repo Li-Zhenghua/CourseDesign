@@ -1,0 +1,31 @@
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+font-family: poppin,Tahoma,Arial,微软雅黑,sans-serif;
+font-size: 16px;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:200px;
+height: 30px;
+line-height: 1.7;
+
+color:black ;
+background-color:white;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#31c27c;
+}

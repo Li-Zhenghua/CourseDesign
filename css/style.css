@@ -147,3 +147,37 @@ table.gridtable td {
     background: #0ae4ff;
 color: #ffffff;
 }
+
+
+/* 導航欄 */
+.first_navi ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+font-family: poppin,Tahoma,Arial,微软雅黑,sans-serif;
+font-size: 16px;
+}
+.first_navi li
+{
+float:left;
+}
+.first_navi a:link,a:visited
+{
+display:block;
+width:200px;
+height: 30px;
+line-height: 1.7;
+
+color:black ;
+background-color:white;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.first_navi a:hover,a:active
+{
+background-color:#31c27c;
+}

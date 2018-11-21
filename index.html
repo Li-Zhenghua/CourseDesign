@@ -3,38 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>糯米音乐</title>
-    
+
     <link rel="stylesheet" href="css/style.css">
 
     <script src="rolling.js"></script>
 
 </head>
-<body>
+<body style="min-width: 1240px; overflow-y: scroll;">
 <!--float:right 让div浮动到右边-->
-<div style="float: right;margin: 10px 20px">
-    <div class="search">
+<div style="position: absolute; top:0px; right: 0px; margin: 10px;">
+    <div class="search_input">
         <div class="inout"><input type="text" placeholder="搜索音乐、mv、歌单、用户"></div>
         <a href="result.html"><img src="images/search.png"></a>
     </div>
-    <div class="loginbtn">
+    <div class="login_btn">
         <a href="login.html"> 登录</a>
     </div>
-    <div class="loginbtn kaitong">
+    <div class="login_btn kaitong">
         <a href="buy.html"> 开通会员</a>
     </div>
 </div>
 
-<div class="first_navi">
+<div class="first_navi" style="margin: 10px">
     <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#home">首页</a></li>
+        <li><a href="#news">歌手</a></li>
+        <li><a href="#contact">专辑</a></li>
+        <li><a href="#about">排行榜</a></li>
     </ul>
 </div>
 
 
-<div class="all" id='all'>
+<div class="rolling_picture" id='rolling_picture'>
         <div class="screen" id="screen">
             <ul id="ul">
                 <li><img src="images/1.jpg" width="500" height="200" /></li>
